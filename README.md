@@ -8,25 +8,29 @@
 
     [Convolutional Neural Networks for Text Hashing(ijcai15)]
     
-【3】RNN文本分类，用了线性的上下文，将时间的复杂度降为O(N)
+【3】RNN文本分类，用了线性的上下文，将时间的复杂度降为O(N),RCNN结构很好。使用了双向RNN作为CNN-max-pooling的输入
 
     [Recurrent convolutional neural networks for text classification (AAAI15)]
     
-【4】曹樾的将CNN 和 RNN 结合起来的cross-modal模型。将各个目标函数放在一起。
+【4】这篇论文就是RCNN的推崇者，在RCNN的基础上，加了一层。参考文献倒是有很多可借鉴的。分析的也还好.RNN因为更看重后面的内容，效果不好。CNN要考虑卷积大小，所以提出了一个结合的方法。词序很重要，一个文本分类的脉络。要看。序列长度对模型的影响。RCNN在short text上效果并没有那么的好
+
+    [Learning text representation using recurrent convolutional neural network with highway layers(arxiv16)]
+    
+【5】曹樾的将CNN 和 RNN 结合起来的cross-modal模型。将各个目标函数放在一起。
 
     [Deep Visual-Semantic Hashing for Cross-Modal Retrieval(KDD16)]
     
-【5】将编码的学习和哈希函数的学习进行相互促进。
+【6】将编码的学习和哈希函数的学习进行相互促进。
 
     [Optimizing Affinity-Based Binary Hashing Using Auxiliary Coordinates(Nips16)]
     
-【1】google的文章，以后要多关注。只用线性的方法做，泛化性能不好。用深度提取特征，在稀疏高质的情况下效果不好，将其结合。
+【7】google的文章，以后要多关注。只用线性的方法做，泛化性能不好。用深度提取特征，在稀疏高质的情况下效果不好，将其结合。
 
     [Wide  Deep Learning for Recommender Systems]
  
 ## 要看
 
-【2】Learning text representation using recurrent convolutional neural network with highway layers
+
 
 【3】Sequential Short-Text Classification with Recurrent and Convolutional Neural Networks
 
@@ -38,3 +42,9 @@
 
 【7】sequence to sequence learning with neural networks
 【8】he kai ming
+【9】Long short-term memory.
+【10】A convolutional neural network for modelling sentences（ACL14）
+【11】Convolutional Neural Networks for Sentence Classification(引用高)
+【12】Bidirectional recurrent neural networks(双向RNN)
+【13】Dropout: A simple way to prevent neural networks from overfitting(dropout)
+【14】
