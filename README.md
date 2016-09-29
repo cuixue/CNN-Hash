@@ -41,10 +41,16 @@
 【6】Long-term Recurrent Convolutional Networks for Visual Recognition and Description
 
 【7】sequence to sequence learning with neural networks
+
 【8】he kai ming
+
 【9】Long short-term memory.
+
 【10】A convolutional neural network for modelling sentences（ACL14）
+
 【11】Convolutional Neural Networks for Sentence Classification(引用高)
+
 【12】Bidirectional recurrent neural networks(双向RNN)
+
 【13】Dropout: A simple way to prevent neural networks from overfitting(dropout)
 【14】
