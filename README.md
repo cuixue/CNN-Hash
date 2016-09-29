@@ -33,3 +33,8 @@
 【4】Supervised and Semi-Supervised Text Categorizationusing LSTM for Region Embeddings
 
 【5】Deep Fusion LSTMs for Text Semantic Matching
+
+【6】Long-term Recurrent Convolutional Networks for Visual Recognition and Description
+
+【7】sequence to sequence learning with neural networks
+【8】he kai ming
