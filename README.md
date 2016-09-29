@@ -19,11 +19,13 @@
 【5】将编码的学习和哈希函数的学习进行相互促进。
 
     [Optimizing Affinity-Based Binary Hashing Using Auxiliary Coordinates(Nips16)]
- 
-## 要看
-【1】google的文章，以后要关注
+    
+【1】google的文章，以后要多关注。只用线性的方法做，泛化性能不好。用深度提取特征，在稀疏高质的情况下效果不好，将其结合。
 
     [Wide  Deep Learning for Recommender Systems]
+ 
+## 要看
+
 【2】Learning text representation using recurrent convolutional neural network with highway layers
 
 【3】Sequential Short-Text Classification with Recurrent and Convolutional Neural Networks
