@@ -5,6 +5,14 @@
 
     [Supervised Hashing for Image Retrieval via Image Representation Learning(AAAI14)]
 
+【2】用了一个端到端的方法，loss是triplet-loss,考虑到了bit之间的冗余问题.只是找triplet对,然后进行loss计算。在结构上,选取了类似 NIN(考虑怎么好)的想法,最后hash bit 时，没有进行全连接的方法，而是分着连接，好处是减少了冗余.
+
+    [Simultaneous Feature Learning and Hash Coding with Deep Neural Networks(CVPR15)]
+    
+【3】
+
+    [Deep Semantic Ranking Based Hashing for Multi-Label Image Retrieval(CVPR15)]    
+    
 ## RNN-text
 【1】不是一个端到端的方法，很多地方处理的比较粗糙。考虑词嵌入和位置嵌入，卷积后结合，得到隐式特征，再将显示特征加进来，最后还得使用tf-idf得到的进过进行监督。
 
@@ -64,3 +72,11 @@
 【13】Dropout: A simple way to prevent neural networks from overfitting(dropout)
 
 【14】Semantic compositionality through recursive matrixvector spaces(高引用)
+
+【15】Network in Network
+
+【16】Deep Semantic Ranking Based Hashing for Multi-Label Image Retrieval(CVPR15)
+
+【17】Deep Learning of Binary Hash Codes for Fast Image Retrieval(CVPR15)
+
+【18】Deep Hashing for Compact Binary Codes Learning(CVPR15)
