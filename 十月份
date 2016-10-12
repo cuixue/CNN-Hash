@@ -1,0 +1,55 @@
+# 我的九月份论文
+
+## CNN
+【1】这篇论文使用了原始像素重构的方法，引入了辅助变量，好处是可以用两步法来求用了两步法来求，一步求网络参数，一步求二值编码，离散用SDH来求，
+又加了无关独立的限制。但是实验效果不好。
+
+    [Discrete Hashing with Deep Neural Network(ARXIV15)]
+
+##经典
+【2】fast哈希采取了两步法，第一步学编码，第二步用决策树来学分类。第一步使用序列学习的方法(后面的不管，只看前面的学习到的)。每次只学习一个block的一个bit。划分block的原则是同一个block内的
+点都是相似的
+
+    [Fast Supervised Hashing with Decision Trees for High-Dimensional Data(CVPR14)]
+    
+## 要看
+
+分类和检索的区别是什么
+
+斯坦福cs224d
+
+10.1
+Convolutional Neural Networks for Sentence Classification
+A convolutional neural network for modelling sentences（ACL14）
+sequence to sequence learning with neural networks
+
+
+【4】Supervised and Semi-Supervised Text Categorizationusing LSTM for Region Embeddings
+
+【5】Deep Fusion LSTMs for Text Semantic Matching
+
+【6】Long-term Recurrent Convolutional Networks for Visual Recognition and Description
+
+【7】sequence to sequence learning with neural networks
+
+【8】he kai ming
+
+【9】Long short-term memory.
+
+【10】Deep Fusion LSTMs for Text Semantic Matching
+
+【11】Convolutional Neural Networks for Sentence Classification(引用高)
+
+【12】Bidirectional recurrent neural networks(双向RNN)
+
+【13】Dropout: A simple way to prevent neural networks from overfitting(dropout)
+
+【14】Semantic compositionality through recursive matrixvector spaces(高引用)
+
+【17】Visualizing and understanding convolutional networks
+
+【18】Learning fine-grained image similarity with deep ranking
+
+【19】Isotropic hashing
+
+【20】Hashing with binary autoencoders. In CVPR, 2015
